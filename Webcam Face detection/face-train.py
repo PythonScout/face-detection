@@ -12,7 +12,7 @@ face_cascade= cv2.CascadeClassifier(r'haarcascade_frontalface_alt2.xml')
 #gives the base directors of the Face-train.py file
 BASE_DIR =os.path.dirname(os.path.abspath(__file__))
 #and use that directory to access images
-image_dir=os.path.join(BASE_DIR, "images")
+image_dir=os.path.join(BASE_DIR, "Images_to_train")
 
 
 
