@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 #face model to detect face
 
-face_cascade= cv2.CascadeClassifier(r'E:\project\Cascades\data\haarcascade_frontalface_alt2.xml')
+face_cascade= cv2.CascadeClassifier(r'E:\Webcam Face detection\Cascades\data\haarcascade_frontalface_alt2.xml')
 
 #access to webcam use(1,2,3... for external webcams)
 v=cv2.VideoCapture(0)
